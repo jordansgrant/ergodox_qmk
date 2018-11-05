@@ -15,6 +15,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = KEYMAP(
+      // Left Hand Row 1
       KC_EQUAL,
       KC_1,
       KC_2,
@@ -22,6 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_4,
       KC_5,
       KC_LEFT,
+      // Left Hand Row 2
       KC_DELETE,
       KC_Q,
       KC_W,
@@ -29,12 +31,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_R,
       KC_T,
       TG(1),
+      // Left Hand Row 3
       KC_BSPACE,
       KC_A,
       KC_S,
       KC_D,
       KC_F,
       KC_G,
+      // Left Hand Row 4
       KC_LSHIFT,
       CTL_T(KC_Z),
       KC_X,
@@ -42,18 +46,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_V,
       KC_B,
       ALL_T(KC_NO),
+      // Left Hand Row 5
       LT(1,
       KC_GRAVE),
       KC_QUOTE,
       LALT(KC_LSHIFT),
       KC_LEFT,
       KC_RIGHT,
+      // Left Hand Thumbs
       ALT_T(KC_APPLICATION),
       KC_LGUI,
       KC_HOME,
       KC_SPACE,
       KC_BSPACE,
       KC_END,
+      // Right Hand Row 1
       KC_RIGHT,
       KC_6,
       KC_7,
@@ -61,6 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_9,
       KC_0,
       KC_MINUS,
+      // Right Hand Row 2
       TG(1),
       KC_Y,
       KC_U,
@@ -68,6 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_O,
       KC_P,
       KC_BSLASH,
+      // Right Hand Row 3
       KC_H,
       KC_J,
       KC_K,
@@ -75,6 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       LT(2,
       KC_SCOLON),
       GUI_T(KC_QUOTE),
+      // Right Hand Row 4
       MEH_T(KC_NO),
       KC_N,
       KC_M,
@@ -82,11 +92,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_DOT,
       RCTL_T(KC_SLASH),
       KC_RSHIFT,
+      // Right Hand Row 5
       KC_UP,
       KC_DOWN,
       KC_LBRACKET,
       KC_RBRACKET,
       MO(1),
+      // Right Hand Thumbs
       KC_LALT,
       CTL_T(KC_ESCAPE),
       KC_PGUP,
@@ -95,6 +107,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_ENTER
   ),
   [1] = KEYMAP(
+      // Left Hand Row 1
       KC_ESCAPE,
       KC_F1,
       KC_F2,
@@ -102,6 +115,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_F4,
       KC_F5,
       KC_TRANSPARENT,
+      // Left Hand Row 2
       KC_TRANSPARENT,
       KC_EXLM,
       KC_AT,
@@ -109,12 +123,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_RCBR,
       KC_PIPE,
       KC_TRANSPARENT,
+      // Left Hand Row 3
       KC_TRANSPARENT,
       KC_HASH,
       KC_DLR,
       KC_LPRN,
       KC_RPRN,
       KC_GRAVE,
+      // Left Hand Row 4
       KC_TRANSPARENT,
       KC_PERC,
       KC_CIRC,
@@ -122,17 +138,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_RBRACKET,
       KC_TILD,
       KC_TRANSPARENT,
+      // Left Hand Row 5
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
-      RGB_MOD,
+      // Left Hand Thumbs
       KC_TRANSPARENT,
       KC_TRANSPARENT,
-      RGB_VAD,
-      RGB_VAI,
       KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      // Right Hand Row 1
       KC_TRANSPARENT,
       KC_F6,
       KC_F7,
@@ -140,6 +159,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_F9,
       KC_F10,
       KC_F11,
+      // Right Hand Row 2
       KC_TRANSPARENT,
       KC_UP,
       KC_7,
@@ -147,12 +167,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_9,
       KC_ASTR,
       KC_F12,
+      // Right Hand Row 3
       KC_DOWN,
       KC_4,
       KC_5,
       KC_6,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Right Hand Row 4
       KC_TRANSPARENT,
       KC_AMPR,
       KC_1,
@@ -160,19 +182,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_3,
       KC_BSLASH,
       KC_TRANSPARENT,
+      // Right Hand Row 5
       KC_TRANSPARENT,
       KC_DOT,
       KC_0,
       KC_EQUAL,
       KC_TRANSPARENT,
-      RGB_TOG,
-      RGB_SLD,
+      // Right Hand Thumbs
       KC_TRANSPARENT,
       KC_TRANSPARENT,
-      RGB_HUD,
-      RGB_HUI
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
   ),
   [2] = KEYMAP(
+      // Left Hand Row 1
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -180,6 +205,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Left Hand Row 2
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -187,12 +213,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Left Hand Row 3
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_MS_LEFT,
       KC_MS_DOWN,
       KC_MS_RIGHT,
       KC_TRANSPARENT,
+      // Left Hand Row 4
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -200,11 +228,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Left Hand Row 5
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_MS_BTN1,
       KC_MS_BTN2,
+      // Left Hand Thumbs
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      KC_TRANSPARENT,
+      // Right Hand Row 1
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -212,6 +249,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Right Hand Row 2
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -219,18 +257,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
-      KC_TRANSPARENT,
-      KC_TRANSPARENT,
-      KC_TRANSPARENT,
-      KC_TRANSPARENT,
-      KC_TRANSPARENT,
-      KC_TRANSPARENT,
+      // Right Hand Row 3
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_MEDIA_PLAY_PAUSE,
+      // Right Hand Row 4
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -238,11 +272,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_MEDIA_NEXT_TRACK,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Right Hand Row 5
       KC_AUDIO_VOL_UP,
       KC_AUDIO_VOL_DOWN,
       KC_AUDIO_MUTE,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
+      // Right Hand Thumbs
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
