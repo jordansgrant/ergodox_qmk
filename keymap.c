@@ -14,7 +14,7 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-  [0] = KEYMAP(
+  [0] = LAYOUT_ergodox(
       // Left Hand Row 1
       KC_EQUAL,
       KC_1,
@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_5,
       ALL_T(KC_NO),
       // Left Hand Row 2
-      KC_DELETE,
+      KC_TAB,
       KC_Q,
       KC_W,
       KC_E,
@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_T,
       KC_HOME,
       // Left Hand Row 3
-      KC_BSPACE,
+      KC_DELETE,
       KC_A,
       KC_S,
       KC_D,
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LGUI,
       KC_LALT,
       KC_BSPACE,
-      KC_TAB,
+      KC_SPACE,
       CTL_T(KC_NO),
       // Right Hand Row 1
       MEH_T(KC_NO),
@@ -102,9 +102,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_PGUP,
       KC_PGDOWN,
       KC_SPACE,
-      KC_ENTER
-  ),
-  [1] = KEYMAP(
+      KC_ENTER),
+  [1] = LAYOUT_ergodox(
       // Left Hand Row 1
       KC_ESCAPE,
       KC_F1,
@@ -192,9 +191,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
-      KC_TRANSPARENT,
-  ),
-  [2] = KEYMAP(
+      KC_TRANSPARENT),
+  [2] = LAYOUT_ergodox(
       // Left Hand Row 1
       KC_TRANSPARENT,
       KC_TRANSPARENT,
@@ -282,8 +280,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TRANSPARENT,
       KC_TRANSPARENT,
       KC_TRANSPARENT,
-      KC_WWW_BACK
-  ),
+      KC_WWW_BACK),
 };
 
 const uint16_t PROGMEM fn_actions[] = {
